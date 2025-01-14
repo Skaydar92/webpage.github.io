@@ -2,46 +2,58 @@
 <head>
     <meta charset="utf-8">
     <title>Sign Up</title>
+    <link rel="stylesheet" href="signup.css">
 </head>
 <body>
-    <form action="action_page.php" style="border:1px solid #ccc">
-        <div class="container">
+    <form action="action_page.php">
+        <div class="container" style="text-align: center">
+            <div style="display: inline-block; text-align: left;">
             <a href="login.html">
-                <img src="homepage.png" alt="Home" style="width: 42px;height:42px;"></a>
+                    <!--<center><img src="homepage.png" alt="Home" style="width: 42px;height:42px;"></center>-->
             </a>
-                <p>Please fill in this form to create an account.</p>
-            <hr>
-
+                <!--<p1>Please fill in this form to create an account.</p1>-->
+            <br>
             <label for="email"><b>Email</b></label>
             <br>
-            <input type="text" placeholder="Enter Email" name="email" required>
+            <input type="text" placeholder="Enter Email" name="email" class="txtIN" required>
+            <br>
             <br>
 
             <label for="psw"><b>Password</b></label>
             <br>
-            <input type="password" placeholder="Enter Password" name="psw" required>
+            <input type="password" placeholder="Enter Password" name="psw" class="txtIN" required>
+            <br>
             <br>
 
-            <label for="psw-repeat"<b>Repeat Password</b></label>
+            <label for="psw-repeat"><b>Repeat Password</b></label>
             <br>
-            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" class="txtIN" required>
+            <br>
             <br>
 
             <label>
                 <input type="checkbox" checked="unchecked" name="remember">Remember me
             </label>
-
             <br>
             <br>
 
             <p>
+                <input type="checkbox" checked="unchecked" name="Terms & Privacy">
                 By creating an account you agree to our Terms & Privacy
             </p>
-
             <div class="clearfix">
-                <button type="button" class="cancelbtn">Cancel</button>
-                <button type="submit" class="signupbtn">Sign Up</button>
+                <center>
+                    <tr>
+                        <td>
+                            <button type="button" class="cancelbtn">Cancel</button>
+                        </td>
+                        <td>
+                            <button type="submit" class="signupbtn">Sign Up</button>
+                        </td>
+                    </tr>
+                </center>
             </div>
+        </div>
         </div>
     </form>
 </body>

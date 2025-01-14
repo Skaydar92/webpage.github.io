@@ -1,0 +1,67 @@
+.container {
+}
+
+.txtIN {
+    width: 390px;
+    height: 30px;
+    text-align: left;
+    border-radius: 10px;
+    border-bottom: 2px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.txtIN:focus {
+    border-bottom: 2px solid green;
+}
+
+input[type=text] {
+    padding: 7px 20px;
+}
+
+input[type=password] {
+    padding: 7px 20px;
+}
+
+body {
+    font-family: "Arial";
+    color: white;
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+label {
+    font-family: "Arial";
+    offset-position: left top;
+    text-align: right;
+}
+
+form {
+    background: #FFFFFF;
+    background-image: url("wallpaper.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+b {
+    font-size: 15px;
+}
+
+div {
+}
+
+p1 {
+    color: red;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 3px solid green;
+}
